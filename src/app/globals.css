@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: hsla(181, 86%, 38%, 1);
+  --dark-blue: hsla(181, 86%, 20%, 1);
+  --grey: hsla(180, 15%, 50%, 1);
+  --primary-blue: hsla(181, 86%, 38%, 1);
+  --Brown: hsla(33, 65%, 45%, 1);
+  --green: hsla(94, 60%, 55%, 1);
+  --bg-green: hsla(59, 29%, 95%, 1);
+  --bg: hsla(76, 41%, 99%, 1);
+  --Golden: hsla(33, 100%, 58%, 1);
 }
 
 @theme inline {
