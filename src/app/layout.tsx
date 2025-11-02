@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Petrona } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +11,29 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const petrona = Petrona({
+  variable: "--font-petrona",
+  subsets: ["latin"],
+  weight: "700",
+  style: "italic",
+});
+
+const sfPro = localFont({
+  src: [
+    {
+      path: "../../public/fonts/SF-Pro.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/SF-Pro-Italic.ttf",
+      weight: "400",
+      style: "italic",
+    },
+  ],
+  variable: "--font-sf-pro",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${sfPro.variable} ${petrona.variable} antialiased`}
       >
         {children}
       </body>
