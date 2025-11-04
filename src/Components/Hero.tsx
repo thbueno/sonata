@@ -12,7 +12,7 @@ export function Hero() {
       px-6 py-20
     "
     >
-      <div className="max-w-5xl w-full flex flex-col items-center gap-12">
+      <div className="container mx-auto w-full flex flex-col items-center gap-12">
         {/* Hero Title */}
         <div className="text-center max-w-4xl px-8 md:px-14 lg:px-12">
           <h1

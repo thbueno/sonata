@@ -19,7 +19,7 @@ export function Navbar() {
       transition-all duration-300
     "
     >
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="shrink-0">
           <Image

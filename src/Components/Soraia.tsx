@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { Button } from "./Button";
 
 export default function Soraia() {
   return (
-    <section className="w-full bg-(--bg) py-16 px-6 sm:px-8 md:px-12 lg:px-16">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <section className="w-full bg-(--bg) py-16 px-6 sm:px-8 md:px-12 lg:px-48">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
           {/* Image Container */}
           <div className="flex justify-center lg:justify-start">
             <div className="relative w-full max-w-[400px] aspect-3/4 rounded-3xl overflow-hidden shadow-2xl">
@@ -113,27 +114,7 @@ export default function Soraia() {
 
             {/* CTA Button */}
             <div className="mt-6">
-              <button
-                className="
-                px-8 py-3.5 
-                bg-(--green) 
-                text-white 
-                font-semibold 
-                text-base sm:text-lg
-                rounded-xl
-                shadow-lg
-                transition-all duration-300 ease-out
-                hover:bg-[#7bc43f]
-                hover:shadow-xl
-                hover:scale-105
-                active:scale-95
-                focus-visible:outline-2 
-                focus-visible:outline-offset-2 
-                focus-visible:outline-(--green)
-              "
-              >
-                Veja mais
-              </button>
+              <Button variant="green">Saiba mais</Button>
             </div>
           </div>
         </div>
