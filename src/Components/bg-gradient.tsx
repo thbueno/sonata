@@ -1,9 +1,0 @@
-import React from 'react'
-
-function BgGradient() {
-  return (
-    <div class="spline-container absolute top-0 left-0 w-full h-full -z-10"><iframe src="https://my.spline.design/aidatamodelinteraction-mdTL3FktFVHgDvFr5TKtnYDV" frameborder="0" width="100%" height="100%" id="aura-spline"></iframe></div>
-  )
-}
-
-export default BgGradient
