@@ -15,11 +15,11 @@ export function Navbar() {
     <nav
       className="
       w-full px-6 md:px-24 lg:px-40 py-4
-      sticky top-0 z-50 bg-linear-to- from-white to-transparent
+      sticky top-0 z-50 bg-white/80 
       transition-all duration-300
     "
     >
-      <ProgressiveBlur height="80%" position="top" className="-z-10" />
+      <ProgressiveBlur height="120%" position="bottom" className="-z-10" />
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="shrink-0">
