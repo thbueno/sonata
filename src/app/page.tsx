@@ -10,19 +10,19 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <section id="hero" className="snap-section">
+      <section id="hero" >
         <Hero />
       </section>
-      <section id="soraia" className="snap-section">
+      <section id="soraia">
         <Soraia />
       </section>
-      <section id="estrategia" className="snap-section">
+      <section id="estrategia" >
         <Tomada />
       </section>
-      <section id="cultura" className="snap-section">
+      <section id="cultura">
         <Estrategia />
       </section>
-      <section id="formacao" className="snap-section">
+      <section id="formacao">
         <Formacao />
       </section>
       <Footer />
