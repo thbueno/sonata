@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Button } from "./Button";
 import BlurEffect from "react-progressive-blur";
+import { ProgressiveBlur } from "@/components/ui/progressive-blur"
+
 
 interface FormacaoCardProps {
   image: string;
@@ -25,11 +27,7 @@ export function FormacaoCard({
       <Image src={image} alt={imageAlt} fill className="object-cover" />
 
       {/* Progressive Blur Overlay from bottom */}
-      <BlurEffect
-        position="bottom"
-        intensity={150}
-        className="h-72 bg-linear-to-t from-black/40 to-transparent"
-      />
+      <ProgressiveBlur height="50%" position="bottom" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-end items-center text-center p-8 pb-12">
