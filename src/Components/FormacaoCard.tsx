@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button } from "./Button";
 import BlurEffect from "react-progressive-blur";
-import { ProgressiveBlur } from "@/components/ui/progressive-blur";
+import { ProgressiveBlur } from "@/Components/progressive-blur";
 
 interface FormacaoCardProps {
   image: string;

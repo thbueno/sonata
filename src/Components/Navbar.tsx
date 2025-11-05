@@ -1,7 +1,7 @@
-import React from "react";
+
 import Image from "next/image";
 import { Button } from "./Button";
-import { ProgressiveBlur } from "@/components/ui/progressive-blur";
+
 
 export function Navbar() {
   const navItems = [
@@ -12,16 +12,16 @@ export function Navbar() {
   ];
 
   return (
-    <nav
-      className="
-      w-full px-6 md:px-24 lg:px-40 py-4
-      sticky top-0 z-50 bg-white/80 
-      transition-all duration-300
-    "
-    >
-      <ProgressiveBlur height="120%" position="bottom" className="-z-10" />
-      <div className="container mx-auto flex items-center justify-between">
-        {/* Logo */}
+    <div className="sticky top-4 z-50 flex justify-center px-6 md:px-24 lg:px-56">
+      <nav
+        className="
+        container flex items-center justify-between px-4 rounded-full md:px-6 lg:px-10 py-6
+        transition-all duration-300
+        bg-white/70 backdrop-blur-[10px] border
+        border-gray-200 before:content-[' '] 
+        before:absolute before:insert-0 before:border before:border-white/90
+      "
+      >
         <div className="shrink-0">
           <Image
             src="/images/sonata-logo.png"
@@ -55,7 +55,7 @@ export function Navbar() {
         <div className="shrink-0">
           <Button variant="green">Contato</Button>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
