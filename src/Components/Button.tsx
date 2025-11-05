@@ -12,7 +12,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles = `
-    px-8 py-3 rounded-full font-sf-pro font-normal text-base
+    px-8 py-3 rounded-full font-sf-pro font-normal text-sm
     transition-all duration-300 ease-out
     focus-visible:outline-2 focus-visible:outline-offset-2
     disabled:opacity-50 disabled:cursor-not-allowed

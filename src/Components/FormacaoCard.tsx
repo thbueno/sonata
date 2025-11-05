@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { Button } from "./Button";
 import BlurEffect from "react-progressive-blur";
-import { ProgressiveBlur } from "@/components/ui/progressive-blur"
-
+import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 
 interface FormacaoCardProps {
   image: string;
@@ -31,11 +30,9 @@ export function FormacaoCard({
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col justify-end items-center text-center p-8 pb-12">
-        <h3 className="text-(--green-light) font-semibold text-3xl sm:text-4xl leading-tight mb-3">
-          {title}
-        </h3>
+        <h3 className="text-(--green-light)! leading-tight mb-3">{title}</h3>
 
-        <p className="text-(--green-light) text-sm sm:text-base leading-relaxed mb-6">
+        <p className="text-(--green-light)! leading-relaxed mb-6">
           {description}
         </p>
 

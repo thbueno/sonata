@@ -5,29 +5,31 @@ const cards = [
     image: "/images/inconciente-image.png",
     imageAlt: "Inconsciente Empresarial",
     title: "Inconsciente Empresarial",
-    description: "Conteúdos e ferramentas conectados à rotina de quem toma decisões",
+    description:
+      "Conteúdos e ferramentas conectados à rotina de quem toma decisões",
   },
   {
     image: "/images/mitografia-image.png",
     imageAlt: "Mitografia",
     title: "Mitografia",
-    description: "Aprovados em Journals acadêmicos e capítulos de livro internacionais.",
+    description:
+      "Aprovados em Journals acadêmicos e capítulos de livro internacionais.",
   },
 ];
 
 export default function Formacao() {
   return (
-    <section className="w-full py-16 px-6 sm:px-8 md:px-12 lg:px-48">
+    <section className="w-full py-16 px-12 md:px-24 lg:px-56">
       <div className="container mx-auto">
         {/* Title */}
-        <h2 className="text-(--dark-blue) font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-center mb-12">
+        <h2>
           Formação para
           <br />
           ser e viver
         </h2>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {cards.map((card, index) => (
             <FormacaoCard key={index} {...card} />
           ))}

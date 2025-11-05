@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Button } from "./Button";
+import { ProgressiveBlur } from "@/components/ui/progressive-blur";
 
 export function Navbar() {
   const navItems = [
@@ -13,12 +14,12 @@ export function Navbar() {
   return (
     <nav
       className="
-      w-full px-6 md:px-24 lg:px-40 py-4 
-      bg-white/80 backdrop-blur-sm
-      sticky top-0 z-50
+      w-full px-6 md:px-24 lg:px-40 py-4
+      sticky top-0 z-50 bg-linear-to- from-white to-transparent
       transition-all duration-300
     "
     >
+      <ProgressiveBlur height="80%" position="top" className="-z-10" />
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="shrink-0">

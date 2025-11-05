@@ -28,7 +28,7 @@ export function EstrategiaCard({
       {/* Content */}
       <div className="px-2 pt-4 pb-2 flex flex-col gap-4 grow">
         <h3
-          className="text-(--green-light) font-semibold text-2xl sm:text-3xl leading-tight"
+          className="text-(--green-light)"
           dangerouslySetInnerHTML={{ __html: title }}
         />
 

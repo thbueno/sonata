@@ -25,10 +25,10 @@ const cards = [
 
 export default function Estrategia() {
   return (
-    <section className="w-full py-16 px-6 sm:px-8 md:px-12 lg:px-48">
+    <section className="w-full py-16 px-12 md:px-24 lg:px-56">
       <div className="container mx-auto">
         {/* Title */}
-        <h2 className="text-(--dark-blue) font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight text-center mb-12">
+        <h2>
           Cultura que
           <br />
           transforma
