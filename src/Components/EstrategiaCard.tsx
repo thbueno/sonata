@@ -19,7 +19,7 @@ export function EstrategiaCard({
   onButtonClick,
 }: EstrategiaCardProps) {
   return (
-    <div className="bg-linear-150 from-(--gd-grey) to-(--blue) rounded-3xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 flex flex-col h-full p-4">
+    <div className="bg-linear-150 from-(--gd-grey) to-(--blue) rounded-3xl border-2 border-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-2 flex flex-col h-full p-4">
       {/* Image Container */}
       <div className="relative w-full aspect-video overflow-hidden shrink-0 rounded-2xl">
         <Image src={image} alt={imageAlt} fill className="object-cover" />
@@ -28,11 +28,11 @@ export function EstrategiaCard({
       {/* Content */}
       <div className="px-2 pt-4 pb-2 flex flex-col gap-4 grow">
         <h3
-          className="text-(--green-light)"
+          className="text-white/90"
           dangerouslySetInnerHTML={{ __html: title }}
         />
 
-        <p className="text-white/90 text-sm sm:text-base leading-relaxed grow">
+        <p className="text-(--green-light)! text-sm sm:text-base leading-relaxed grow">
           {description}
         </p>
 
@@ -40,7 +40,7 @@ export function EstrategiaCard({
         <div className="mt-2">
           <Button
             variant="white"
-            className="bg-transparent! text-(--green-light)! border-2! border-(--green-light)! hover:bg-(--green-light)! hover:text-white!"
+            className="bg-transparent! text-(--green-light)! border-2! border-(--green-light)! hover:bg-(--green-light)! hover:text-(--blue)!"
             onClick={onButtonClick}
           >
             {buttonText}

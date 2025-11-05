@@ -21,7 +21,7 @@ export function FormacaoCard({
   onButtonClick,
 }: FormacaoCardProps) {
   return (
-    <div className="relative w-full h-[400px] sm:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 group">
+    <div className="relative w-full h-[400px] sm:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 group">
       {/* Background Image */}
       <Image src={image} alt={imageAlt} fill className="object-cover" />
 
@@ -32,7 +32,7 @@ export function FormacaoCard({
       <div className="relative z-10 h-full flex flex-col justify-end items-center text-center p-8 pb-12">
         <h3 className="text-(--green-light)! leading-tight mb-3">{title}</h3>
 
-        <p className="text-(--green-light)! leading-relaxed mb-6">
+        <p className="text-(--green-light)! mb-6">
           {description}
         </p>
 

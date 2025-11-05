@@ -31,7 +31,7 @@ export function Button({
       focus-visible:outline-[hsla(181,86%,38%,0.5)]
     `,
     white: `
-      bg-white text-[hsla(181,86%,38%,1)] border-2 border-[hsla(181,86%,38%,1)]
+      bg-white text-[hsla(181,86%,38%,1)] border-1 border-[hsla(181,86%,38%,1)]
       hover:bg-[hsla(181,86%,38%,0.05)] hover:shadow-md
       focus-visible:outline-[hsla(181,86%,38%,0.5)]
     `,

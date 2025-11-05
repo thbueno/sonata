@@ -7,7 +7,6 @@ export function Hero() {
     <section
       className="
       w-full min-h-screen
-      bg-[hsla(76,41%,99%,1)]
       flex flex-col items-center justify-center
       px-6 py-20
     "
