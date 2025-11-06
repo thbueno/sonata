@@ -59,11 +59,11 @@ export function Navbar() {
   };
 
   return (
-    <div className="sticky top-4 z-50 flex justify-center px-6 md:px-24 lg:px-52">
+    <div className="top-0 z-50 flex justify-center ">
       <nav
         className="
-        container flex items-center justify-between px-4 rounded-full md:px-6 lg:px-10 py-6
-        transition-all duration-300
+        w-full flex items-center justify-between py-6 px-6 md:px-24 lg:px-52
+        transition-all duration-500
         bg-white backdrop-blur-[10px] border
         border-white before:content-[' '] 
         before:absolute before:insert-0 before:border before:border-white/90

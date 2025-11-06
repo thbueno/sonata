@@ -19,7 +19,7 @@ export function EstrategiaCard({
   onButtonClick,
 }: EstrategiaCardProps) {
   return (
-    <div className="bg-linear-150 from-(--gd-grey) to-(--blue) rounded-3xl border-2 border-gray-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-2 flex flex-col h-full p-4">
+    <div className="bg-linear-150 from-(--gd-grey) to-(--blue) rounded-3xl border-2 border-gray-100 transition-all duration-500 hover:shadow-lg transform ease-out hover:-translate-y-2 flex flex-col h-full p-4">
       {/* Image Container */}
       <div className="relative w-full aspect-video overflow-hidden shrink-0 rounded-2xl">
         <Image src={image} alt={imageAlt} fill className="object-cover" />

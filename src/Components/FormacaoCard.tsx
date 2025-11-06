@@ -21,7 +21,7 @@ export function FormacaoCard({
   onButtonClick,
 }: FormacaoCardProps) {
   return (
-    <div className="relative w-full h-[400px] sm:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 group">
+    <div className="relative w-full h-[400px] sm:h-[450px] lg:h-[500px] rounded-3xl overflow-hidden transition-all duration-500 ease-out hover:shadow-xl hover:-translate-y-2 group">
       {/* Background Image */}
       <Image src={image} alt={imageAlt} fill className="object-cover" />
 
