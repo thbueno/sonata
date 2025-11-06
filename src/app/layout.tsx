@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Petrona } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import SmoothScrolling from "@/Components/SmoothScrolling";
+import ObserverProvider from "@/Components/ObserverProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,7 +54,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${sfPro.variable} ${petrona.variable} antialiased`}
       >
         <SmoothScrolling>
-        {children}
+          <ObserverProvider> 
+            {children}
+          </ObserverProvider>
         </SmoothScrolling>
       </body>
     </html>

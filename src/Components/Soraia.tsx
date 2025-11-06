@@ -8,7 +8,7 @@ export default function Soraia() {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:items-start lg:justify-start gap-6">
           {/* Image Container */}
           <div className="flex justify-center md:justify-start lg:justify-start items-top">
-            <div className="relative w-full max-w-[360px] aspect-3/4 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative w-full max-w-[360px] aspect-3/4 rounded-3xl overflow-hidden shadow-2xl intersect:motion-preset-blur-right motion-duration-700">
               <Image
                 src="/images/Soraia-photo.png"
                 alt="Soraia Schutel"
@@ -22,12 +22,12 @@ export default function Soraia() {
           {/* Content Container */}
           <div className="flex flex-col gap-6 items-center justify-center lg:items-start lg:justify-start">
             {/* Title */}
-            <h2 className="text-left mb-0! mt-6 md:mt-0 lg:mt-0">
+            <h2 className="text-left mb-0! mt-6 md:mt-0 lg:mt-0 intersect:motion-preset-blur-down-lg motion-duration-700">
               Soraia Schutel
             </h2>
 
             {/* Description */}
-            <p>
+            <p className="intersect:motion-preset-blur-down-lg motion-duration-900">
               Já lecionou em Universidades no Brasil e exterior como Unisinos e
               Universidade La Sapienza-Roma, e contribuiu com a escrita de
               artigos científicos aprovados em Journals acadêmicos e capítulos
@@ -37,7 +37,7 @@ export default function Soraia() {
             {/* Credentials Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-2 gap-6 mt-4">
               {/* PhD */}
-              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
+              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1 intersect:motion-preset-blur-down-lg motion-duration-1000">
                 <div className="shrink-0 w-8 h-8">
                   <Image
                     src="/svgs/phd-icon.svg"
@@ -52,7 +52,7 @@ export default function Soraia() {
               </div>
 
               {/* Imersões */}
-              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
+              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1 intersect:motion-preset-blur-down-lg motion-duration-1100">
                 <div className="shrink-0 w-8 h-8">
                   <Image
                     src="/svgs/imersoes-icon.svg"
@@ -67,7 +67,7 @@ export default function Soraia() {
               </div>
 
               {/* Pós graduada */}
-              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
+              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1 intersect:motion-preset-blur-down-lg motion-duration-1200">
                 <div className="shrink-0 w-8 h-8">
                   <Image
                     src="/svgs/pos-icon.svg"
@@ -82,7 +82,7 @@ export default function Soraia() {
               </div>
 
               {/* Mentora */}
-              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
+              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1 intersect:motion-preset-blur-down-lg motion-duration-1300">
                 <div className="shrink-0 w-8 h-8">
                   <Image
                     src="/svgs/mentora-icon.svg"
@@ -97,7 +97,7 @@ export default function Soraia() {
               </div>
 
               {/* MBA */}
-              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1">
+              <div className="flex items-start gap-3 transition-transform duration-300 hover:translate-x-1 intersect:motion-preset-blur-down-lg motion-duration-1400">
                 <div className="shrink-0 w-8 h-8">
                   <Image
                     src="/svgs/mba-icon.svg"

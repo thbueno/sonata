@@ -13,7 +13,7 @@ export function Hero() {
     >
       <div className="container mx-auto w-full flex flex-col items-center gap-12">
         {/* Hero Title */}
-        <div className="text-center max-w-4xl px-8 md:px-14 lg:px-12">
+        <div className="text-center max-w-4xl px-8 md:px-14 lg:px-12 motion-preset-blur-down-md motion-duration-1500">
           <h1
             className="
             text-var(--dark-blue)
@@ -43,6 +43,7 @@ export function Hero() {
           group cursor-pointer
           transition-all duration-300
           hover:shadow-3xl hover:scale-[1.02]
+          motion-preset-blur-right motion-duration-1000
         "
         >
           <Image
