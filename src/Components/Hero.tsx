@@ -30,8 +30,8 @@ export function Hero() {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          <Button variant="blue">comece hoje</Button>
-          <Button variant="white">veja mais</Button>
+          <Button variant="blue">mergulhe agora</Button>
+          <Button variant="white">explore mais</Button>
         </div>
 
         {/* Video Placeholder */}
