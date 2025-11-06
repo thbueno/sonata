@@ -8,7 +8,7 @@ export function Hero() {
       className="
       w-full min-h-screen
       flex flex-col items-center justify-center
-      px-6 py-20
+      px-6 pb-10 pt-8 md:py-20 lg:py-20
     "
     >
       <div className="container mx-auto w-full flex flex-col items-center gap-12">
