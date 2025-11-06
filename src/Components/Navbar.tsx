@@ -59,10 +59,10 @@ export function Navbar() {
   };
 
   return (
-    <div className="top-0 z-50 flex justify-center ">
+    <div className="w-full top-0 z-50">
       <nav
         className="
-        w-full flex items-center justify-between py-6 px-6 md:px-24 lg:px-52
+        max-w-6xl mx-auto flex items-center justify-between py-6 px-6 md:px-24 lg:px-48
         transition-all duration-500
         bg-white backdrop-blur-[10px] border
         border-white before:content-[' '] 
@@ -72,15 +72,15 @@ export function Navbar() {
         <a
           href="#hero"
           onClick={(e) => handleClick(e, "#hero")}
-          className="shrink-0 transition-opacity duration-200 hover:opacity-80"
+          className="shrink-0 transition-opacity duration-500 hover:opacity-80"
         >
           <Image
             src="/images/sonata-logo.png"
             alt="Sonata Leadership Academy"
-            width={120}
+            width={100}
             height={60}
             priority
-            className="h-auto w-auto"
+            className="h-10 w-auto"
           />
         </a>
 

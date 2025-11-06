@@ -28,7 +28,7 @@ export default function Estrategia() {
     <section className="w-full py-16 px-12 md:px-24 lg:px-56">
       <div className="container mx-auto">
         {/* Title */}
-        <h2 className="intersect:motion-preset-blur-down-lg motion-duration-1000">
+        <h2 className="intersect:motion-preset-blur-down-lg motion-duration-700">
           Cultura que
           <br />
           transforma
