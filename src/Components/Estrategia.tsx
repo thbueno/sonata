@@ -28,14 +28,14 @@ export default function Estrategia() {
     <section className="w-full py-16 px-12 md:px-24 lg:px-56">
       <div className="container mx-auto">
         {/* Title */}
-        <h2>
+        <h2 className="intersect:motion-preset-blur-down-lg motion-duration-1000">
           Cultura que
           <br />
           transforma
         </h2>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start intersect:motion-preset-blur-right motion-duration-1500">
           {cards.map((card, index) => (
             <EstrategiaCard key={index} {...card} />
           ))}

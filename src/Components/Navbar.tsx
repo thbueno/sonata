@@ -127,7 +127,7 @@ export function Navbar() {
 
         {/* CTA Button */}
         <div className="shrink-0">
-          <Button variant="green">Contato</Button>
+          <Button variant="green">Conecte-se</Button>
         </div>
       </nav>
     </div>
