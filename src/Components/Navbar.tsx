@@ -62,7 +62,7 @@ export function Navbar() {
     <div className="w-full top-0 z-50">
       <nav
         className="
-        max-w-6xl mx-auto flex items-center justify-between py-6 px-6 md:px-24 lg:px-48
+        max-w-6xl mx-auto flex items-center justify-between py-6 px-6 md:px-24 lg:px-44
         transition-all duration-500
         bg-white backdrop-blur-[10px] border
         border-white before:content-[' '] 
