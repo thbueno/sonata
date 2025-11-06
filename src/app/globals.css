@@ -97,6 +97,10 @@ body {
   font-family: var(--font-sf-pro);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   h1 {
     @apply font-sf-pro text-3xl font-normal tracking-tight text-(--dark-blue) md:text-4xl lg:text-5xl;
@@ -111,7 +115,7 @@ body {
     @apply font-sf-pro text-sm font-normal text-(--grey) md:text-base lg:text-base;
   }
   span {
-    @apply font-petrona text-2xl italic font-bold tracking-tight text-(--dark-blue)  md:text-4xl lg:text-5xl;
+    @apply font-petrona text-3xl italic font-bold tracking-tight text-(--dark-blue)  md:text-4xl lg:text-5xl;
   }
 }
 
