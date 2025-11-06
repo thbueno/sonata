@@ -1,10 +1,7 @@
-
 "use client";
 
 import Image from "next/image";
 import { Button } from "./Button";
-
-
 
 import { useState, useEffect } from "react";
 
@@ -67,7 +64,7 @@ export function Navbar() {
         className="
         container flex items-center justify-between px-4 rounded-full md:px-6 lg:px-10 py-6
         transition-all duration-300
-        bg-white/70 backdrop-blur-[10px] border
+        bg-white backdrop-blur-[10px] border
         border-white before:content-[' '] 
         before:absolute before:insert-0 before:border before:border-white/90
       "
@@ -109,7 +106,7 @@ export function Navbar() {
                   transition-colors duration-300
                   ${
                     isActive
-                      ? "text-(--blue) font-medium"
+                      ? "text-(--blue) font-semibold"
                       : "text-(--grey) hover:text-(--blue)"
                   }
                 `}

@@ -112,7 +112,7 @@ html {
     @apply font-sf-pro text-2xl font-semibold tracking-tight text-(--dark-blue) md:text-2xl lg:text-2xl;
   }
   p {
-    @apply font-sf-pro text-sm font-normal text-(--grey) md:text-base lg:text-base;
+    @apply font-sf-pro text-base font-normal text-(--grey) md:text-base lg:text-base;
   }
   span {
     @apply font-petrona text-3xl italic font-bold tracking-tight text-(--dark-blue)  md:text-4xl lg:text-5xl;
