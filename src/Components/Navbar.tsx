@@ -64,9 +64,6 @@ export function Navbar() {
         className="
         max-w-6xl mx-auto flex items-center justify-between py-6 px-6 md:px-24 lg:px-44
         transition-all duration-500
-        bg-white backdrop-blur-[10px] border
-        border-white before:content-[' '] 
-        before:absolute before:insert-0 before:border before:border-white/90
       "
       >
         <a

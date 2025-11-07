@@ -21,7 +21,7 @@ export function Button({
 
   const variantStyles = {
     green: `
-      bg-(--green) text-white
+      bg-[hsla(110,92%,66%,100)] border border-(--dark-blue) text-(--dark-blue)
       hover:bg-(--green)/90 hover:shadow-lg
       focus-visible:outline-[hsla(94,60%,55%,0.5)]
     `,

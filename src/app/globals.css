@@ -1,9 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import 'lenis/dist/lenis.css';
-@plugin "tailwindcss-motion";
+/* @plugin "tailwindcss-motion";
 @plugin "tailwindcss-intersect";
-
+ */
 @custom-variant dark (&:is(.dark *));
 
 :root {
