@@ -12,7 +12,7 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles = `
-    px-8 py-3 rounded-full font-sf-pro font-semibold text-sm
+    px-6 py-3 rounded-full font-sf-pro font-semibold text-sm
     transition-all duration-200 ease-out
     focus-visible:outline-2 focus-visible:outline-offset-2
     disabled:opacity-50 disabled:cursor-not-allowed
@@ -22,7 +22,7 @@ export function Button({
 
   const variantStyles = {
     green: `
-      bg-[hsla(110,65%,72%,100)] border-2 border-(--dark-blue) text-(--dark-blue)
+      bg-transparent border-2 border-(--dark-blue) text-(--dark-blue)
       hover:shadow-[0.25rem_0.25rem_5px_hsla(181,30%,50%,100)] hover:text-white
       hover:bg-(--blue) transition-all duration-500 ease-out
       active:shadow-none

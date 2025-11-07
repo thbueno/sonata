@@ -32,7 +32,7 @@ export function EstrategiaCard({
           dangerouslySetInnerHTML={{ __html: title }}
         />
 
-        <p className="text-(--green-light)! text-sm sm:text-base leading-relaxed grow">
+        <p className="text-white/70! text-sm sm:text-base leading-relaxed grow">
           {description}
         </p>
 
@@ -40,7 +40,7 @@ export function EstrategiaCard({
         <div className="mt-2">
           <Button
             variant="white"
-            className="bg-transparent! text-(--green-light)! border-2! border-(--green-light)! hover:bg-(--green-light)! hover:text-(--blue)!"
+            className="bg-transparent! text-white/70! border-2! border-white/70! hover:bg-(--green-light)! hover:text-(--dark-blue)!"
             onClick={onButtonClick}
           >
             {buttonText}
