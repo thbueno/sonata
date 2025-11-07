@@ -12,27 +12,33 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles = `
-    px-8 py-3 rounded-full font-sf-pro font-normal text-sm
-    transition-all duration-300 ease-out
+    px-8 py-3 rounded-full font-sf-pro font-semibold text-sm
+    transition-all duration-200 ease-out
     focus-visible:outline-2 focus-visible:outline-offset-2
     disabled:opacity-50 disabled:cursor-not-allowed
-    active:scale-95
+    hover:-translate-x-1 hover:-translate-y-1
+    active:translate-x-0 active:translate-y-0
   `;
 
   const variantStyles = {
     green: `
-      bg-[hsla(110,92%,66%,100)] border border-(--dark-blue) text-(--dark-blue)
-      hover:bg-(--green)/90 hover:shadow-lg
+      bg-[hsla(110,92%,66%,100)] border-2 border-(--dark-blue) text-(--dark-blue)
+      hover:shadow-[0.25rem_0.25rem_5px_hsla(181,30%,50%,100)] hover:text-white
+      hover:bg-(--blue) transition-all duration-500 ease-out
+      active:shadow-none
       focus-visible:outline-[hsla(94,60%,55%,0.5)]
     `,
     blue: `
-      bg-[hsla(181,86%,38%,1)] text-white
-      hover:bg-[hsla(181,86%,33%,1)] hover:shadow-lg
+      bg-[hsla(181,86%,38%,1)] border-2 border-(--blue) text-white hover:text-(--dark-blue)
+      hover:bg-white hover:border-2 hover:border-(--dark-blue)
+      hover:shadow-[0.25rem_0.25rem_5px_hsla(181,30%,50%,100)]
+      active:shadow-none transition-all duration-500 ease-out
       focus-visible:outline-[hsla(181,86%,38%,0.5)]
     `,
     white: `
-      bg-white text-[hsla(181,86%,38%,1)] border-1 border-[hsla(181,86%,38%,1)]
-      hover:bg-[hsla(181,86%,38%,0.05)] hover:shadow-md
+      bg-white text-[hsla(181,86%,38%,1)] border-2 border-[hsla(181,86%,38%,1)]
+      hover:bg-(--blue) hover:border-(--dark-blue) hover:text-white hover:shadow-[0.25rem_0.25rem_5px_hsla(181,30%,50%,100)]
+      active:shadow-none transition-all duration-500 ease-out
       focus-visible:outline-[hsla(181,86%,38%,0.5)]
     `,
   };

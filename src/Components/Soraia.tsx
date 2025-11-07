@@ -8,7 +8,7 @@ export default function Soraia() {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center lg:items-start lg:justify-start gap-6">
           {/* Image Container */}
           <div className="flex justify-center md:justify-start lg:justify-start items-top">
-            <div className="relative w-full max-w-[360px] aspect-3/4 rounded-3xl overflow-hidden shadow-2xl intersect:motion-preset-blur-right motion-duration-700">
+            <div className="relative w-full max-w-[360px] aspect-3/4 rounded-3xl overflow-hidden shadow-2xl intersect:motion-preset-blur-right">
               <Image
                 src="/images/Soraia-photo.png"
                 alt="Soraia Schutel"
