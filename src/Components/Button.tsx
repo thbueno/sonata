@@ -22,7 +22,7 @@ export function Button({
 
   const variantStyles = {
     green: `
-      bg-[hsla(110,80%,66%,100)] border-2 border-(--dark-blue) text-(--dark-blue)
+      bg-[hsla(110,65%,72%,100)] border-2 border-(--dark-blue) text-(--dark-blue)
       hover:shadow-[0.25rem_0.25rem_5px_hsla(181,30%,50%,100)] hover:text-white
       hover:bg-(--blue) transition-all duration-500 ease-out
       active:shadow-none
