@@ -25,7 +25,7 @@ const cards = [
 
 export default function Estrategia() {
   return (
-    <section className="w-full py-16 px-12 md:px-24 lg:px-56">
+    <section className="w-full py-16 px-0 md:px-24 lg:px-56">
       <div className="container mx-auto">
         {/* Title */}
         <h2 className="intersect:motion-preset-blur-down-lg motion-duration-700">
@@ -34,10 +34,24 @@ export default function Estrategia() {
           transforma
         </h2>
 
-        {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start intersect:motion-preset-blur-right motion-duration-1500">
+        {/* Cards - Mobile Carousel / Desktop Grid */}
+        <div className="
+          flex overflow-x-auto snap-x snap-mandatory gap-6 px-6 pb-4
+          md:grid md:grid-cols-2 md:overflow-visible md:snap-none
+          lg:grid-cols-3 lg:gap-8
+          intersect:motion-preset-blur-right motion-duration-1500
+          scrollbar-hide
+        ">
           {cards.map((card, index) => (
-            <EstrategiaCard key={index} {...card} />
+            <div
+              key={index}
+              className="
+                flex-shrink-0 w-[85vw] snap-center
+                md:w-auto md:flex-shrink md:snap-align-none
+              "
+            >
+              <EstrategiaCard {...card} />
+            </div>
           ))}
         </div>
       </div>
