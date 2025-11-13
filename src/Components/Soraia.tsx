@@ -28,10 +28,7 @@ export default function Soraia() {
 
             {/* Description */}
             <p className="intersect:motion-preset-blur-down-lg motion-duration-900">
-              Já lecionou em Universidades no Brasil e exterior como Unisinos e
-              Universidade La Sapienza-Roma, e contribuiu com a escrita de
-              artigos científicos aprovados em Journals acadêmicos e capítulos
-              de livro internacionais.
+              Executiva, empresária, pesquisadora, mãe. 25 anos de experiência em empreendedorismo global. Fundadora da Sonata Brasil, realizando inúmeros programas nacionais e internacionais, coordenando programas de MBA e imersões pela Europa. Acredita no potencial do Brasil através de um legado educacional e cultural para as futuras gerações.
             </p>
 
             {/* Credentials Grid */}
@@ -47,7 +44,7 @@ export default function Soraia() {
                   />
                 </div>
                 <h3 className="text-(--dark-blue) font-semibold text-base">
-                  PhD em Administração
+                  PhD em Administração na UFRGS &#40;brasil&#41;
                 </h3>
               </div>
 
@@ -62,7 +59,7 @@ export default function Soraia() {
                   />
                 </div>
                 <h3 className="text-(--dark-blue) font-semibold text-base">
-                  Imersões pelo mundo
+                  Estágio Doutoral na HEC-Montreal &#40;Canadá&#41;
                 </h3>
               </div>
 
@@ -77,7 +74,7 @@ export default function Soraia() {
                   />
                 </div>
                 <h3 className="text-(--dark-blue) font-semibold text-base">
-                  Pós graduada
+                  Leadership for Transition na Schumacher College &#40;Inglaterra&#41;
                 </h3>
               </div>
 
@@ -92,7 +89,7 @@ export default function Soraia() {
                   />
                 </div>
                 <h3 className="text-(--dark-blue) font-semibold text-base">
-                  Mentora de Carreira
+                  Leadership Coaching Strategies em Harvard (EUA)
                 </h3>
               </div>
 
@@ -107,13 +104,16 @@ export default function Soraia() {
                   />
                 </div>
                 <h3 className="text-(--dark-blue) font-semibold text-base">
-                  Coordenadora MBA
+                  Formação para Conselheiros de Empresas (IBCG)
                 </h3>
               </div>
+                <div className="mt-4 pl-10 hidden md:block">
+                  <Button variant="green">Saiba mais</Button>
+                </div>
             </div>
 
             {/* CTA Button */}
-            <div className="mt-6">
+            <div className="mt-6 md:hidden lg:hidden">
               <Button variant="green">Saiba mais</Button>
             </div>
           </div>

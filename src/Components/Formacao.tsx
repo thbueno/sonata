@@ -6,14 +6,14 @@ const cards = [
     imageAlt: "Inconsciente Empresarial",
     title: "Inconsciente Empresarial",
     description:
-      "Conteúdos e ferramentas conectados à rotina de quem toma decisões",
+      "Método inovador de conexão entre propósito e ações práticas.",
   },
   {
     image: "/images/mitografia-image.png",
     imageAlt: "Mitografia",
     title: "Mitografia",
     description:
-      "Aprovados em Journals acadêmicos e capítulos de livro internacionais.",
+      "Abordagem clássica nos mitos para busca de identidade e previsão para a tomada de decisões.",
   },
 ];
 
