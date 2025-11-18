@@ -20,11 +20,11 @@ export function Hero() {
             leading-tight
           "
           >
-            A nova fronteira de educação de lideranças vai{" "}
+            Formando líderes que unem{" "} < br/>
             <span className="font-petrona italic text-var(--dark-blue)">
-              além da técnica
+              razão, sensibilidade e coragem < br/>
             </span>{" "}
-            e do conhecimento prático
+            para criar o futuro
           </h1>
         </div>
 
