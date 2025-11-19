@@ -46,8 +46,8 @@ export default function Estrategia() {
             <div
               key={index}
               className="
-                flex-shrink-0 w-[85vw] snap-center
-                md:w-auto md:flex-shrink md:snap-align-none
+                shrink-0 w-[85vw] snap-center
+                md:w-auto md:shrink md:snap-align-none
               "
             >
               <EstrategiaCard {...card} />
